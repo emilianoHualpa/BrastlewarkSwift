@@ -14,6 +14,8 @@ class GnomesLoaderViewController: UIViewController {
     @IBOutlet weak var statusLabel: UILabel!
     internal let networkClient = NetworkClient.shared
     internal var gnomes: [Gnome] = []
+    @IBOutlet weak var tryAgainButton: UIButton!
+    @IBOutlet weak var downloadingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +29,8 @@ class GnomesLoaderViewController: UIViewController {
     
     // MARK: - Private
     func getGnomes() {
+        self.tryAgainButton.isHidden = true
+        self.downloadingLabel.isHidden = false
         self.spinner.startAnimating()
         networkClient.getGnomes(
             town: .Brastlewark,
@@ -40,6 +44,7 @@ class GnomesLoaderViewController: UIViewController {
             }, failure: { [weak self] error in
                 print("Gnomes download failed: \(error)")
                 guard let strongSelf = self else { return }
+                strongSelf.spinner.stopAnimating()
                 strongSelf.showError()
         })
     }
@@ -52,7 +57,7 @@ class GnomesLoaderViewController: UIViewController {
         })
         
         let cancelAction = UIAlertAction(title: NSLocalizedString("CANCEL", comment:""), style: .cancel, handler: { action in
-            //self.showTryAgain()
+            self.showTryAgain()
         })
         
         alert.addAction(okAction)
@@ -62,8 +67,13 @@ class GnomesLoaderViewController: UIViewController {
         
     }
 
+    @IBAction func tryAgain(_ sender: Any) {
+        getGnomes()
+    }
     
     func showTryAgain() {
+        tryAgainButton.isHidden = false
+        downloadingLabel.isHidden = true
     }
 
     // MARK: - Navigation

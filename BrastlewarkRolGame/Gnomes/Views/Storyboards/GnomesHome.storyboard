@@ -39,16 +39,30 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOx-5d-Oym">
+                                <rect key="frame" x="36" y="315" width="303" height="36"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="17"/>
+                                <state key="normal" title="Try Again!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tryAgain:" destination="pPM-KZ-daf" eventType="touchUpInside" id="Q0T-mc-hZq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="MCD-aZ-5qE" firstAttribute="centerX" secondItem="KIo-01-03N" secondAttribute="centerX" id="32F-Jy-X9k"/>
                             <constraint firstAttribute="bottom" secondItem="fdj-vW-NzO" secondAttribute="bottom" id="7WJ-eT-E25"/>
                             <constraint firstItem="MCD-aZ-5qE" firstAttribute="centerY" secondItem="KIo-01-03N" secondAttribute="centerY" id="91g-Hb-A7W"/>
+                            <constraint firstItem="ZOx-5d-Oym" firstAttribute="leading" secondItem="KIo-01-03N" secondAttribute="leadingMargin" constant="20" id="AbX-ez-TFa"/>
                             <constraint firstItem="fdj-vW-NzO" firstAttribute="leading" secondItem="KIo-01-03N" secondAttribute="leading" id="L20-xc-Z3g"/>
                             <constraint firstItem="fdj-vW-NzO" firstAttribute="top" secondItem="KIo-01-03N" secondAttribute="top" id="O4H-xh-0Zc"/>
+                            <constraint firstItem="ZOx-5d-Oym" firstAttribute="centerY" secondItem="KIo-01-03N" secondAttribute="centerY" id="VFH-KE-aYQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oq8-1V-hax" secondAttribute="trailing" constant="20" id="Wak-gN-pFQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZOx-5d-Oym" secondAttribute="trailing" constant="20" id="ffL-Sa-UHJ"/>
                             <constraint firstItem="oq8-1V-hax" firstAttribute="centerX" secondItem="MCD-aZ-5qE" secondAttribute="centerX" id="mHA-vh-ckj"/>
+                            <constraint firstItem="ZOx-5d-Oym" firstAttribute="centerX" secondItem="KIo-01-03N" secondAttribute="centerX" id="pYY-PI-vHy"/>
                             <constraint firstItem="oq8-1V-hax" firstAttribute="top" secondItem="MCD-aZ-5qE" secondAttribute="bottom" constant="10" id="v0L-Uz-f5u"/>
                             <constraint firstItem="oq8-1V-hax" firstAttribute="leading" secondItem="KIo-01-03N" secondAttribute="leadingMargin" constant="20" id="xci-wH-hf9"/>
                             <constraint firstAttribute="trailing" secondItem="fdj-vW-NzO" secondAttribute="trailing" id="zBL-tG-tli"/>
@@ -56,14 +70,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="MbN-at-wdb"/>
                     <connections>
+                        <outlet property="downloadingLabel" destination="oq8-1V-hax" id="i89-aY-uvD"/>
                         <outlet property="spinner" destination="MCD-aZ-5qE" id="eNK-EY-eAr"/>
                         <outlet property="statusLabel" destination="oq8-1V-hax" id="1lq-cX-yBV"/>
+                        <outlet property="tryAgainButton" destination="ZOx-5d-Oym" id="XPs-xZ-Ro3"/>
                         <segue destination="CbN-1S-4Ws" kind="show" identifier="GnomeMain" id="1sR-9R-MLf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C02-ff-eoL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="953" y="-179"/>
+            <point key="canvasLocation" x="952.79999999999995" y="-179.46026986506749"/>
         </scene>
         <!--Gnomes List-->
         <scene sceneID="KvQ-oU-Ojj">
