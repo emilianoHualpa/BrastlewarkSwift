@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GnomeTown.init(json : [String : Any], town : GnomeTowns) -&gt; GnomeTown?:GnomeTown.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GnomesTableTableViewController.viewDidLoad() -&gt; ():GnomesTableTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.gnomes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Gnome.array(jsonArray : [[String : Any]]) -&gt; [Gnome]:Gnome.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UITableView.dequeueReusableCell&lt;A where ...&gt; (forIndexPath : IndexPath) -&gt; A:UITableView+Extension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "T.self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

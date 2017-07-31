@@ -11,6 +11,21 @@
 		263BB92C1F2C9BC50097188F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263BB92B1F2C9BC50097188F /* Assets.xcassets */; };
 		263BB92F1F2C9BC50097188F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263BB92D1F2C9BC50097188F /* LaunchScreen.storyboard */; };
 		263BB93A1F2C9BC50097188F /* BrastlewarkRolGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BB9391F2C9BC50097188F /* BrastlewarkRolGameTests.swift */; };
+		263BB94A1F2CA3D30097188F /* NewtorkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BB9491F2CA3D30097188F /* NewtorkClient.swift */; };
+		263BB94F1F2CA9F50097188F /* ServerEnvironments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 263BB94E1F2CA9F50097188F /* ServerEnvironments.plist */; };
+		26606FDF1F2CD18700C0E3D4 /* GnomesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26606FDE1F2CD18700C0E3D4 /* GnomesTableViewController.swift */; };
+		26606FE31F2CD1D200C0E3D4 /* GnomesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26606FE21F2CD1D200C0E3D4 /* GnomesDetailViewController.swift */; };
+		26606FED1F2CDBAD00C0E3D4 /* GnomesHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26606FEC1F2CDBAD00C0E3D4 /* GnomesHome.storyboard */; };
+		26606FEF1F2CE12300C0E3D4 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26606FEE1F2CE12300C0E3D4 /* Gnome.swift */; };
+		26606FF11F2CE99300C0E3D4 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26606FF01F2CE99300C0E3D4 /* NetworkError.swift */; };
+		26606FFA1F2D0C9E00C0E3D4 /* GnomeTown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26606FF91F2D0C9E00C0E3D4 /* GnomeTown.swift */; };
+		26606FFD1F2DD74100C0E3D4 /* GnomesLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26606FFC1F2DD74100C0E3D4 /* GnomesLoaderViewController.swift */; };
+		266070001F2E1FBF00C0E3D4 /* BaseGnomesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26606FFF1F2E1FBF00C0E3D4 /* BaseGnomesTableViewController.swift */; };
+		266070021F2E25B200C0E3D4 /* GnomesResutlTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266070011F2E25B200C0E3D4 /* GnomesResutlTableController.swift */; };
+		266070041F2E3ECA00C0E3D4 /* GnomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266070031F2E3ECA00C0E3D4 /* GnomeTableViewCell.xib */; };
+		266070061F2E41B000C0E3D4 /* GnomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266070051F2E41B000C0E3D4 /* GnomeTableViewCell.swift */; };
+		77FAB91846C25763834862A2 /* Pods_BrastlewarkRolGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDE70EC37FAB1995CB02D64 /* Pods_BrastlewarkRolGameTests.framework */; };
+		A03E35B583EE018ADFA1D346 /* Pods_BrastlewarkRolGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3ACBB82A0795A0E83FF414 /* Pods_BrastlewarkRolGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12D5C352FF96E271BE8B4BF0 /* Pods-BrastlewarkRolGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkRolGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkRolGame/Pods-BrastlewarkRolGame.release.xcconfig"; sourceTree = "<group>"; };
 		263BB9211F2C9BC50097188F /* BrastlewarkRolGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrastlewarkRolGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263BB9241F2C9BC50097188F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		263BB92B1F2C9BC50097188F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,6 +48,27 @@
 		263BB9351F2C9BC50097188F /* BrastlewarkRolGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrastlewarkRolGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263BB9391F2C9BC50097188F /* BrastlewarkRolGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastlewarkRolGameTests.swift; sourceTree = "<group>"; };
 		263BB93B1F2C9BC50097188F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263BB9491F2CA3D30097188F /* NewtorkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewtorkClient.swift; path = Networking/NewtorkClient.swift; sourceTree = "<group>"; };
+		263BB94E1F2CA9F50097188F /* ServerEnvironments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ServerEnvironments.plist; path = SupportingFiles/ServerEnvironments.plist; sourceTree = "<group>"; };
+		26606FDE1F2CD18700C0E3D4 /* GnomesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GnomesTableViewController.swift; path = Gnomes/ViewControllers/GnomesTableViewController.swift; sourceTree = "<group>"; };
+		26606FE21F2CD1D200C0E3D4 /* GnomesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GnomesDetailViewController.swift; path = Gnomes/ViewControllers/GnomesDetailViewController.swift; sourceTree = "<group>"; };
+		26606FEC1F2CDBAD00C0E3D4 /* GnomesHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GnomesHome.storyboard; path = Gnomes/Views/Storyboards/GnomesHome.storyboard; sourceTree = "<group>"; };
+		26606FEE1F2CE12300C0E3D4 /* Gnome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gnome.swift; path = Gnomes/Models/Gnome.swift; sourceTree = "<group>"; };
+		26606FF01F2CE99300C0E3D4 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = Networking/NetworkError.swift; sourceTree = "<group>"; };
+		26606FF91F2D0C9E00C0E3D4 /* GnomeTown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GnomeTown.swift; path = Gnomes/Models/GnomeTown.swift; sourceTree = "<group>"; };
+		26606FFC1F2DD74100C0E3D4 /* GnomesLoaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GnomesLoaderViewController.swift; path = Gnomes/ViewControllers/GnomesLoaderViewController.swift; sourceTree = "<group>"; };
+		26606FFF1F2E1FBF00C0E3D4 /* BaseGnomesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseGnomesTableViewController.swift; path = Gnomes/ViewControllers/BaseGnomesTableViewController.swift; sourceTree = "<group>"; };
+		266070011F2E25B200C0E3D4 /* GnomesResutlTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GnomesResutlTableController.swift; path = Gnomes/ViewControllers/GnomesResutlTableController.swift; sourceTree = "<group>"; };
+		266070031F2E3ECA00C0E3D4 /* GnomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GnomeTableViewCell.xib; path = Gnomes/Views/Cells/GnomeTableViewCell.xib; sourceTree = "<group>"; };
+		266070051F2E41B000C0E3D4 /* GnomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GnomeTableViewCell.swift; path = Gnomes/Views/Cells/GnomeTableViewCell.swift; sourceTree = "<group>"; };
+		268023D21F2CCD7C0055A074 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		268023D31F2CCD800055A074 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "Pods/../build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
+		268023D41F2CCDDE0055A074 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		3E3ACBB82A0795A0E83FF414 /* Pods_BrastlewarkRolGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastlewarkRolGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE7C9AF04D58A13239CFD66 /* Pods-BrastlewarkRolGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkRolGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkRolGameTests/Pods-BrastlewarkRolGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73589C0C94580A0F4833381A /* Pods-BrastlewarkRolGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkRolGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkRolGameTests/Pods-BrastlewarkRolGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9E5E559F0DA0CA6D8552588 /* Pods-BrastlewarkRolGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastlewarkRolGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastlewarkRolGame/Pods-BrastlewarkRolGame.debug.xcconfig"; sourceTree = "<group>"; };
+		CFDE70EC37FAB1995CB02D64 /* Pods_BrastlewarkRolGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastlewarkRolGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03E35B583EE018ADFA1D346 /* Pods_BrastlewarkRolGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FAB91846C25763834862A2 /* Pods_BrastlewarkRolGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +97,8 @@
 				263BB9231F2C9BC50097188F /* BrastlewarkRolGame */,
 				263BB9381F2C9BC50097188F /* BrastlewarkRolGameTests */,
 				263BB9221F2C9BC50097188F /* Products */,
+				6F5DB154A51275DE67B8776E /* Pods */,
+				842B3BF34A42A3DCFF6F60A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,14 +114,9 @@
 		263BB9231F2C9BC50097188F /* BrastlewarkRolGame */ = {
 			isa = PBXGroup;
 			children = (
+				26606FE41F2CDAAE00C0E3D4 /* Gnomes */,
 				263BB9471F2C9D900097188F /* Networking */,
-				263BB9461F2C9C5F0097188F /* Controllers */,
-				263BB9451F2C9C550097188F /* Views */,
-				263BB9441F2C9C4C0097188F /* Models */,
-				263BB9241F2C9BC50097188F /* AppDelegate.swift */,
-				263BB92B1F2C9BC50097188F /* Assets.xcassets */,
-				263BB92D1F2C9BC50097188F /* LaunchScreen.storyboard */,
-				263BB9301F2C9BC50097188F /* Info.plist */,
+				263BB94B1F2CA97F0097188F /* App */,
 			);
 			path = BrastlewarkRolGame;
 			sourceTree = "<group>";
@@ -97,6 +133,8 @@
 		263BB9441F2C9C4C0097188F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				26606FEE1F2CE12300C0E3D4 /* Gnome.swift */,
+				26606FF91F2D0C9E00C0E3D4 /* GnomeTown.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -104,6 +142,9 @@
 		263BB9451F2C9C550097188F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				26606FEC1F2CDBAD00C0E3D4 /* GnomesHome.storyboard */,
+				266070031F2E3ECA00C0E3D4 /* GnomeTableViewCell.xib */,
+				266070051F2E41B000C0E3D4 /* GnomeTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -111,6 +152,10 @@
 		263BB9461F2C9C5F0097188F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				26606FFE1F2E1F9C00C0E3D4 /* Base */,
+				26606FFB1F2DD71F00C0E3D4 /* Loader */,
+				26606FE01F2CD19B00C0E3D4 /* Main */,
+				26606FE11F2CD1AA00C0E3D4 /* Detail */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -118,8 +163,112 @@
 		263BB9471F2C9D900097188F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				263BB9491F2CA3D30097188F /* NewtorkClient.swift */,
+				26606FF01F2CE99300C0E3D4 /* NetworkError.swift */,
 			);
 			name = Networking;
+			sourceTree = "<group>";
+		};
+		263BB9481F2CA2E20097188F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				263BB9241F2C9BC50097188F /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		263BB94B1F2CA97F0097188F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				263BB92D1F2C9BC50097188F /* LaunchScreen.storyboard */,
+				263BB94D1F2CA9A90097188F /* Resources */,
+				263BB94C1F2CA9940097188F /* Supporting Files */,
+				263BB9481F2CA2E20097188F /* AppDelegate */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		263BB94C1F2CA9940097188F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				263BB9301F2C9BC50097188F /* Info.plist */,
+				263BB94E1F2CA9F50097188F /* ServerEnvironments.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		263BB94D1F2CA9A90097188F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				263BB92B1F2C9BC50097188F /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		26606FE01F2CD19B00C0E3D4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				26606FDE1F2CD18700C0E3D4 /* GnomesTableViewController.swift */,
+				266070011F2E25B200C0E3D4 /* GnomesResutlTableController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		26606FE11F2CD1AA00C0E3D4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				26606FE21F2CD1D200C0E3D4 /* GnomesDetailViewController.swift */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		26606FE41F2CDAAE00C0E3D4 /* Gnomes */ = {
+			isa = PBXGroup;
+			children = (
+				263BB9441F2C9C4C0097188F /* Models */,
+				263BB9451F2C9C550097188F /* Views */,
+				263BB9461F2C9C5F0097188F /* Controllers */,
+			);
+			name = Gnomes;
+			sourceTree = "<group>";
+		};
+		26606FFB1F2DD71F00C0E3D4 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				26606FFC1F2DD74100C0E3D4 /* GnomesLoaderViewController.swift */,
+			);
+			name = Loader;
+			sourceTree = "<group>";
+		};
+		26606FFE1F2E1F9C00C0E3D4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				26606FFF1F2E1FBF00C0E3D4 /* BaseGnomesTableViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		6F5DB154A51275DE67B8776E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E5E559F0DA0CA6D8552588 /* Pods-BrastlewarkRolGame.debug.xcconfig */,
+				12D5C352FF96E271BE8B4BF0 /* Pods-BrastlewarkRolGame.release.xcconfig */,
+				6FE7C9AF04D58A13239CFD66 /* Pods-BrastlewarkRolGameTests.debug.xcconfig */,
+				73589C0C94580A0F4833381A /* Pods-BrastlewarkRolGameTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		842B3BF34A42A3DCFF6F60A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268023D41F2CCDDE0055A074 /* Alamofire.framework */,
+				268023D31F2CCD800055A074 /* AlamofireImage.framework */,
+				268023D21F2CCD7C0055A074 /* Alamofire.framework */,
+				3E3ACBB82A0795A0E83FF414 /* Pods_BrastlewarkRolGame.framework */,
+				CFDE70EC37FAB1995CB02D64 /* Pods_BrastlewarkRolGameTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 263BB93E1F2C9BC50097188F /* Build configuration list for PBXNativeTarget "BrastlewarkRolGame" */;
 			buildPhases = (
+				F6FF6E6E031ABF9BD68B0663 /* [CP] Check Pods Manifest.lock */,
 				263BB91D1F2C9BC50097188F /* Sources */,
 				263BB91E1F2C9BC50097188F /* Frameworks */,
 				263BB91F1F2C9BC50097188F /* Resources */,
+				6512B23A558F13FD01631838 /* [CP] Embed Pods Frameworks */,
+				DCF6A136615D281F1717045F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 263BB9411F2C9BC50097188F /* Build configuration list for PBXNativeTarget "BrastlewarkRolGameTests" */;
 			buildPhases = (
+				3E8C5761AB1E31232E75D8BB /* [CP] Check Pods Manifest.lock */,
 				263BB9311F2C9BC50097188F /* Sources */,
 				263BB9321F2C9BC50097188F /* Frameworks */,
 				263BB9331F2C9BC50097188F /* Resources */,
+				C4BE4742A39DC273320C6B59 /* [CP] Embed Pods Frameworks */,
+				F69D6C43BDF353E7028481B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				263BB92F1F2C9BC50097188F /* LaunchScreen.storyboard in Resources */,
+				263BB94F1F2CA9F50097188F /* ServerEnvironments.plist in Resources */,
+				26606FED1F2CDBAD00C0E3D4 /* GnomesHome.storyboard in Resources */,
+				266070041F2E3ECA00C0E3D4 /* GnomeTableViewCell.xib in Resources */,
 				263BB92C1F2C9BC50097188F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,12 +379,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E8C5761AB1E31232E75D8BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6512B23A558F13FD01631838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkRolGame/Pods-BrastlewarkRolGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4BE4742A39DC273320C6B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkRolGameTests/Pods-BrastlewarkRolGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF6A136615D281F1717045F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkRolGame/Pods-BrastlewarkRolGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69D6C43BDF353E7028481B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastlewarkRolGameTests/Pods-BrastlewarkRolGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6FF6E6E031ABF9BD68B0663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		263BB91D1F2C9BC50097188F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26606FE31F2CD1D200C0E3D4 /* GnomesDetailViewController.swift in Sources */,
+				266070061F2E41B000C0E3D4 /* GnomeTableViewCell.swift in Sources */,
 				263BB9251F2C9BC50097188F /* AppDelegate.swift in Sources */,
+				26606FFD1F2DD74100C0E3D4 /* GnomesLoaderViewController.swift in Sources */,
+				266070021F2E25B200C0E3D4 /* GnomesResutlTableController.swift in Sources */,
+				26606FEF1F2CE12300C0E3D4 /* Gnome.swift in Sources */,
+				26606FFA1F2D0C9E00C0E3D4 /* GnomeTown.swift in Sources */,
+				26606FF11F2CE99300C0E3D4 /* NetworkError.swift in Sources */,
+				26606FDF1F2CD18700C0E3D4 /* GnomesTableViewController.swift in Sources */,
+				266070001F2E1FBF00C0E3D4 /* BaseGnomesTableViewController.swift in Sources */,
+				263BB94A1F2CA3D30097188F /* NewtorkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +616,13 @@
 		};
 		263BB93F1F2C9BC50097188F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E5E559F0DA0CA6D8552588 /* Pods-BrastlewarkRolGame.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z3L26H9NRS;
 				INFOPLIST_FILE = BrastlewarkRolGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = testing.BrastlewarkRolGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,10 +632,13 @@
 		};
 		263BB9401F2C9BC50097188F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D5C352FF96E271BE8B4BF0 /* Pods-BrastlewarkRolGame.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z3L26H9NRS;
 				INFOPLIST_FILE = BrastlewarkRolGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = testing.BrastlewarkRolGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +648,7 @@
 		};
 		263BB9421F2C9BC50097188F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE7C9AF04D58A13239CFD66 /* Pods-BrastlewarkRolGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -396,6 +664,7 @@
 		};
 		263BB9431F2C9BC50097188F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73589C0C94580A0F4833381A /* Pods-BrastlewarkRolGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,6 +697,7 @@
 				263BB9401F2C9BC50097188F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		263BB9411F2C9BC50097188F /* Build configuration list for PBXNativeTarget "BrastlewarkRolGameTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +706,7 @@
 				263BB9431F2C9BC50097188F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
